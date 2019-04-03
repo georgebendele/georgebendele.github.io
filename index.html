@@ -3,13 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <title>Activity 1: Basic HTML Bio</title>
+  
+  <style>
+  .rotate90 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  }
+  
+  h1 {
+      color: blue;
+      font-family: verdana;
+      font-size: 300%;
+  }
+  }
+  </style>
 </head>
 
 <body>
     <h1>George's Bio</h1>
     </br>
-    <img src="IMG_0761.jpg" alt="Smiley face" height="80" width="120">
+    <img id="image" src="IMG_0761.jpg" alt="Smiley face" height="160" width="200" class="rotate90">
     </br>
+    </br>
+
     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
     </br>
     </br>
